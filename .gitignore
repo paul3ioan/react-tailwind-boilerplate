@@ -12,6 +12,8 @@
 /build
 
 # misc
+build-env.js
+env.js
 .DS_Store
 .env.local
 .env.development.local

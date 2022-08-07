@@ -24,5 +24,9 @@ replace.sync({
   from: '../src/types/IConfig',
   to: '../../src/types/IConfig',
 });
-
+replace.sync({
+  files: './src/config/environment.ts',
+  from: '../src/env',
+  to: '../env',
+});
 fs.copyFileSync(`./env/build-env/${env}.js`, './build-env.js');

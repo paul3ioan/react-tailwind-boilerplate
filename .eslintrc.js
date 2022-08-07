@@ -33,6 +33,7 @@ module.exports = {
     ],
     'react/react-in-jsx-scope': 'off',
     'no-use-before-define': 'off',
+    'react/function-component-definition': ['error', { namedComponents: 'arrow-function' }],
     '@typescript-eslint/no-use-before-define': ['error'],
     'import/extensions': ['error', 'never', { png: 'always' }],
     'react/prop-types': 0,
